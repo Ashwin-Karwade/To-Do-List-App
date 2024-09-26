@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react'
-import CreateTask from '../modals/CreateTask'
-import Navbar from './Navbar'
+import CreateTask from '../modals/CreateTask.jsx'
+import Navbar from './Navbar.jsx'
 import logo from '../assets/logo.png'
 import axios from 'axios'
-import { EditTask } from '../modals/EditTask'
+
 
 
 const Todolist = () => {
